@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {NgModule, Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-pipes-practice';
+  private dateVal: Date = new Date();
+  private jsonVal: Object = { moo: 'foo', goo: { too: 'new' }};
 }
